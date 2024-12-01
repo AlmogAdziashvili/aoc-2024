@@ -1,0 +1,23 @@
+{
+  "name": "aoc-2024",
+  "version": "1.0.0",
+  "scripts": {
+    "start": ":",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlmogAdziashvili/aoc-2024.git"
+  },
+  "author": "Almog Adziashvili",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
+    "lodash.permutations": "^1.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/index.js"]
+  }
+}
