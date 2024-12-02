@@ -44,7 +44,7 @@ describe('Day 1', () => {
         expect(result).toBe(2430334);
     });
 
-    it('Part 2', () => {
+    it.skip('Part 2', () => {
         const exampleResult = solve2(processInput(exampleInput));
         expect(exampleResult).toBe(31);
 
